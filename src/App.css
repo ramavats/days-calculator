@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text color */
+  margin: 0;
+  padding: 20px;
+}
+
+.App {
+  max-width: 600px;
+  margin: auto;
+  background: #1e1e1e; /* Darker background for the app container */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff; /* White text for the heading */
+}
+
+.date-picker {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffffff; /* White text for labels */
+}
+
+input[type="date"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #444; /* Dark border */
+  border-radius: 4px;
+  background-color: #333; /* Dark background for input */
+  color: #ffffff; /* Light text color for input */
+  box-sizing: border-box; /* Ensures padding is included in the width */
+}
+
+input[type="date"]::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker button on hover */
+}
+
+.countdown {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  background: #2a2a2a; /* Dark background for countdown */
+  padding: 15px;
+  border-radius: 4px;
+}
+
+.checkbox {
+  display: flex; /* Use flexbox to align items in a row */
+  align-items: center; /* Center align items vertically */
+  margin-bottom: 20px;
+}
+
+.checkbox input {
+  margin-right: 10px; /* Add some space between the checkbox and the label */
+}
+
+.checkbox label {
+  font-size: 0.9em; /* Smaller font size */
+  color: #ffffff; /* White text for checkbox label */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
+}
